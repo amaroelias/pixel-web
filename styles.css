@@ -29,40 +29,36 @@ button {
     background-color: #0F4D92;
   }
 
-
-/* No seu arquivo styles.css */
 .rodape {
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     display: flex;
-    justify-content: center; /* Centraliza os botões na tela */
+    justify-content: center; 
     align-items: center;
-    background-color: #fff; /* Cor de fundo opcional */
+    background-color: #fff; 
 }
 
 .botao {
     text-align: center;
-    color: #0F4D92; /* Cor do texto em preto */
-    display: flex; /* Adiciona display flex para empilhar elementos verticalmente */
-    flex-direction: column; /* Empilha os elementos verticalmente */
-    align-items: center; /* Centraliza os itens na direção transversal (vertical) */
+    color: #0F4D92; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
 }
 
 .botao img {
-    width: 30px; /* Ajuste conforme necessário */
-    height: 30px; /* Ajuste conforme necessário */
-    margin-bottom: 0px; /* Espaçamento entre a imagem e o texto */
-    cursor: pointer; /* Adiciona um cursor indicando que é clicável */
+    width: 30px; 
+    height: 30px;
+    margin-bottom: 0px; 
+    cursor: pointer; 
 }
 
-/* Remove a margem direita do último botão para evitar espaçamento adicional */
 .botao:last-child {
     margin-right: 0;
 }
 
-/* Adiciona margem entre os botões */
 .botao:not(:last-child) {
     margin-right: 50px;
 }
@@ -117,8 +113,8 @@ body.tela-fase1 button {
     text-align: justify;
 }
 .fases img{
-    width: 40px; /* Ajuste conforme necessário */
-    height: 40px; /* Ajuste conforme necessário */
+    width: 40px; 
+    height: 40px; 
     margin-right: 10px;
 }
 .fases{
@@ -132,9 +128,9 @@ body.tela-fase1 button {
     display: flex;
     align-items: center;
     border-radius: 10px;
-    background-color: #7df9ff; /* Cor de fundo */
-    padding: 20px; /* Espaçamento interno */
-    width: 125px; /* Largura da caixa */
+    background-color: #7df9ff; 
+    padding: 20px; 
+    width: 125px; 
     height: 30px;
     cursor: pointer
 }
