@@ -1,0 +1,140 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin: 20px;
+}
+
+.fases{
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color:#0F4D92;
+    color: #ffffff;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #0F4D92;
+  }
+
+
+/* No seu arquivo styles.css */
+.rodape {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center; /* Centraliza os botões na tela */
+    align-items: center;
+    background-color: #fff; /* Cor de fundo opcional */
+}
+
+.botao {
+    text-align: center;
+    color: #0F4D92; /* Cor do texto em preto */
+    display: flex; /* Adiciona display flex para empilhar elementos verticalmente */
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    align-items: center; /* Centraliza os itens na direção transversal (vertical) */
+}
+
+.botao img {
+    width: 30px; /* Ajuste conforme necessário */
+    height: 30px; /* Ajuste conforme necessário */
+    margin-bottom: 0px; /* Espaçamento entre a imagem e o texto */
+    cursor: pointer; /* Adiciona um cursor indicando que é clicável */
+}
+
+/* Remove a margem direita do último botão para evitar espaçamento adicional */
+.botao:last-child {
+    margin-right: 0;
+}
+
+/* Adiciona margem entre os botões */
+.botao:not(:last-child) {
+    margin-right: 50px;
+}
+
+
+body.tela-inicial {
+    background-color: #7df9ff;
+    color: #0F4D92;
+}
+
+body.tela-selecao-fases {
+    background-color: white;
+    color: #0F4D92;
+}
+
+body.tela-ajuda {
+    background-color: white;
+    color: #0F4D92;
+    text-align: center;
+}
+
+body.tela-fase1 {
+    background-color: #0F4D92;
+    color: #0F4D92;
+}
+
+body.tela-fase1 button {
+    background-color: #0F4D92;
+    color: white;
+}
+
+body.tela-sobre {
+    background-color: white;
+    color: #0F4D92;
+}
+
+body.tela-fase1 {
+    background-color: #0F4D92;
+    color: #0F4D92;
+}
+
+body.tela-fase1 button {
+    background-color: #0F4D92;
+    color: white;
+}
+
+.textos{
+    text-align: center;
+}
+
+.paragrafos{
+    text-align: justify;
+}
+.fases img{
+    width: 40px; /* Ajuste conforme necessário */
+    height: 40px; /* Ajuste conforme necessário */
+    margin-right: 10px;
+}
+.fases{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 0;
+}
+.fase1{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #7df9ff; /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+    width: 125px; /* Largura da caixa */
+    height: 30px;
+    cursor: pointer
+}
