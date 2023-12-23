@@ -1,0 +1,1 @@
+### Desenvolvimento de uma versão web para o projeto Computação Plugada Pixel. Inicialmente, é composto de telas do aplicativo mobile já criado feitas em HTML, CSS e JavaScript. Incrementarei ainda funcionalidades responsivas com React.
